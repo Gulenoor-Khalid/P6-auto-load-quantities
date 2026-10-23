@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+out/
+*_review.xlsx
+*_P6_import_TASKRSRC.xlsx
+*_assignments.csv
+*_summary.json
+~$*

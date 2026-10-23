@@ -1,0 +1,742 @@
+ERMHDR	22.12	2026-10-01	Project	admin	admin	dbx	Project Management	USD
+%T	PROJECT
+%F	proj_id	proj_short_name
+%R	1	TWR-17
+%T	PROJWBS
+%F	wbs_id	proj_id	parent_wbs_id	wbs_short_name	wbs_name	proj_node_flag
+%R	100	1		TWR	Tower Project	Y
+%R	101	1	100	GENERAL	General	N
+%R	102	1	100	SUBSTRUCTU	Substructure	N
+%R	103	1	102	EARTHWORKS	Earthworks	N
+%R	104	1	102	PILING	Piling	N
+%R	105	1	102	FOUNDATION	Foundations	N
+%R	106	1	100	SUPERSTRUC	Superstructure	N
+%R	107	1	106	B2	B2	N
+%R	108	1	106	B1	B1	N
+%R	109	1	106	GF	GF	N
+%R	110	1	106	L01	L01	N
+%R	111	1	106	L02	L02	N
+%R	112	1	106	L03	L03	N
+%R	113	1	106	L04	L04	N
+%R	114	1	106	L05	L05	N
+%R	115	1	106	L06	L06	N
+%R	116	1	106	L07	L07	N
+%R	117	1	106	L08	L08	N
+%R	118	1	106	L09	L09	N
+%R	119	1	106	L10	L10	N
+%R	120	1	106	L11	L11	N
+%R	121	1	106	L12	L12	N
+%R	122	1	106	L13	L13	N
+%R	123	1	106	L14	L14	N
+%R	124	1	106	L15	L15	N
+%R	125	1	106	L16	L16	N
+%R	126	1	106	L17	L17	N
+%R	127	1	106	RF	RF	N
+%R	128	1	100	FINISHES	Finishes	N
+%R	129	1	128	GROUNDFLO	Ground Floor	N
+%R	130	1	128	LEVEL01	Level 01	N
+%R	131	1	128	LEVEL02	Level 02	N
+%R	132	1	128	LEVEL03	Level 03	N
+%R	133	1	128	LEVEL04	Level 04	N
+%R	134	1	128	LEVEL05	Level 05	N
+%R	135	1	128	LEVEL06	Level 06	N
+%R	136	1	128	LEVEL07	Level 07	N
+%R	137	1	128	LEVEL08	Level 08	N
+%R	138	1	128	LEVEL09	Level 09	N
+%R	139	1	128	LEVEL10	Level 10	N
+%R	140	1	128	LEVEL11	Level 11	N
+%R	141	1	128	LEVEL12	Level 12	N
+%R	142	1	128	LEVEL13	Level 13	N
+%R	143	1	128	LEVEL14	Level 14	N
+%R	144	1	128	LEVEL15	Level 15	N
+%R	145	1	128	LEVEL16	Level 16	N
+%R	146	1	128	LEVEL17	Level 17	N
+%R	147	1	128	BASEMENT2	Basement 2	N
+%R	148	1	128	BASEMENT1	Basement 1	N
+%R	149	1	100	FACADE	Facade	N
+%R	150	1	100	ROOF	Roof	N
+%R	151	1	100	VERTICALT	Vertical Transportation	N
+%R	152	1	100	COMMISSION	Commissioning	N
+%R	153	1	100	EXTERNALW	External Works	N
+%T	TASK
+%F	task_id	proj_id	wbs_id	task_code	task_name	task_type	target_drtn_hr_cnt	status_code
+%R	5000	1	101	A1010	Notice to Proceed	TT_Mile	0	TK_NotStart
+%R	5001	1	101	A1020	Mobilization & Site Setup	TT_Task	160	TK_NotStart
+%R	5002	1	101	A1030	Project Management & Supervision	TT_LOE	6000	TK_NotStart
+%R	5003	1	101	A1040	Structure Complete	TT_FinMile	0	TK_NotStart
+%R	5004	1	101	A1050	Practical Completion	TT_FinMile	0	TK_NotStart
+%R	5005	1	103	A1060	Bulk Excavation	TT_Task	480	TK_NotStart
+%R	5006	1	103	A1070	Shoring - Secant Pile Wall	TT_Task	400	TK_NotStart
+%R	5007	1	103	A1080	Dewatering	TT_Task	600	TK_NotStart
+%R	5008	1	104	A1090	Bored Piling Zone A	TT_Task	320	TK_NotStart
+%R	5009	1	104	A1100	Bored Piling Zone B	TT_Task	320	TK_NotStart
+%R	5010	1	105	A1110	Pile Caps Zone A	TT_Task	160	TK_NotStart
+%R	5011	1	105	A1120	Pile Caps Zone B	TT_Task	160	TK_NotStart
+%R	5012	1	105	A1130	Blinding Concrete - Zone A	TT_Task	40	TK_NotStart
+%R	5013	1	105	A1140	Blinding Concrete - Zone B	TT_Task	40	TK_NotStart
+%R	5014	1	105	A1150	Raft Waterproofing	TT_Task	120	TK_NotStart
+%R	5015	1	105	A1160	Raft Foundation - Zone A	TT_Task	200	TK_NotStart
+%R	5016	1	105	A1170	Raft Foundation - Zone B	TT_Task	200	TK_NotStart
+%R	5017	1	103	A1180	Backfilling	TT_Task	160	TK_NotStart
+%R	5018	1	107	A1190	B2 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5019	1	107	A1200	B2 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5020	1	107	A1210	B2 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5021	1	107	A1220	B2 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5022	1	107	A1230	B2 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5023	1	107	A1240	B2 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5024	1	107	A1250	B2 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5025	1	107	A1260	B2 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5026	1	107	A1270	B2 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5027	1	107	A1280	B2 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5028	1	107	A1290	B2 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5029	1	107	A1300	B2 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5030	1	107	A1310	B2 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5031	1	107	A1320	B2 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5032	1	107	A1330	B2 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5033	1	107	A1340	B2 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5034	1	108	A1350	B1 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5035	1	108	A1360	B1 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5036	1	108	A1370	B1 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5037	1	108	A1380	B1 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5038	1	108	A1390	B1 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5039	1	108	A1400	B1 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5040	1	108	A1410	B1 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5041	1	108	A1420	B1 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5042	1	108	A1430	B1 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5043	1	108	A1440	B1 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5044	1	108	A1450	B1 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5045	1	108	A1460	B1 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5046	1	108	A1470	B1 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5047	1	108	A1480	B1 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5048	1	108	A1490	B1 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5049	1	108	A1500	B1 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5050	1	109	A1510	GF Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5051	1	109	A1520	GF Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5052	1	109	A1530	GF Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5053	1	109	A1540	GF Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5054	1	109	A1550	GF Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5055	1	109	A1560	GF Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5056	1	109	A1570	GF - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5057	1	109	A1580	GF - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5058	1	109	A1590	GF - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5059	1	109	A1600	GF Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5060	1	109	A1610	GF Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5061	1	109	A1620	GF Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5062	1	109	A1630	GF Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5063	1	109	A1640	GF Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5064	1	109	A1650	GF Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5065	1	109	A1660	GF - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5066	1	110	A1670	L01 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5067	1	110	A1680	L01 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5068	1	110	A1690	L01 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5069	1	110	A1700	L01 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5070	1	110	A1710	L01 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5071	1	110	A1720	L01 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5072	1	110	A1730	L01 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5073	1	110	A1740	L01 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5074	1	110	A1750	L01 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5075	1	110	A1760	L01 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5076	1	110	A1770	L01 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5077	1	110	A1780	L01 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5078	1	110	A1790	L01 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5079	1	110	A1800	L01 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5080	1	110	A1810	L01 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5081	1	110	A1820	L01 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5082	1	111	A1830	L02 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5083	1	111	A1840	L02 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5084	1	111	A1850	L02 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5085	1	111	A1860	L02 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5086	1	111	A1870	L02 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5087	1	111	A1880	L02 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5088	1	111	A1890	L02 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5089	1	111	A1900	L02 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5090	1	111	A1910	L02 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5091	1	111	A1920	L02 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5092	1	111	A1930	L02 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5093	1	111	A1940	L02 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5094	1	111	A1950	L02 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5095	1	111	A1960	L02 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5096	1	111	A1970	L02 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5097	1	111	A1980	L02 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5098	1	112	A1990	L03 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5099	1	112	A2000	L03 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5100	1	112	A2010	L03 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5101	1	112	A2020	L03 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5102	1	112	A2030	L03 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5103	1	112	A2040	L03 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5104	1	112	A2050	L03 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5105	1	112	A2060	L03 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5106	1	112	A2070	L03 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5107	1	112	A2080	L03 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5108	1	112	A2090	L03 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5109	1	112	A2100	L03 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5110	1	112	A2110	L03 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5111	1	112	A2120	L03 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5112	1	112	A2130	L03 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5113	1	112	A2140	L03 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5114	1	113	A2150	L04 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5115	1	113	A2160	L04 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5116	1	113	A2170	L04 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5117	1	113	A2180	L04 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5118	1	113	A2190	L04 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5119	1	113	A2200	L04 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5120	1	113	A2210	L04 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5121	1	113	A2220	L04 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5122	1	113	A2230	L04 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5123	1	113	A2240	L04 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5124	1	113	A2250	L04 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5125	1	113	A2260	L04 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5126	1	113	A2270	L04 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5127	1	113	A2280	L04 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5128	1	113	A2290	L04 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5129	1	113	A2300	L04 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5130	1	114	A2310	L05 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5131	1	114	A2320	L05 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5132	1	114	A2330	L05 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5133	1	114	A2340	L05 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5134	1	114	A2350	L05 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5135	1	114	A2360	L05 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5136	1	114	A2370	L05 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5137	1	114	A2380	L05 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5138	1	114	A2390	L05 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5139	1	114	A2400	L05 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5140	1	114	A2410	L05 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5141	1	114	A2420	L05 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5142	1	114	A2430	L05 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5143	1	114	A2440	L05 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5144	1	114	A2450	L05 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5145	1	114	A2460	L05 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5146	1	115	A2470	L06 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5147	1	115	A2480	L06 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5148	1	115	A2490	L06 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5149	1	115	A2500	L06 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5150	1	115	A2510	L06 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5151	1	115	A2520	L06 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5152	1	115	A2530	L06 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5153	1	115	A2540	L06 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5154	1	115	A2550	L06 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5155	1	115	A2560	L06 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5156	1	115	A2570	L06 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5157	1	115	A2580	L06 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5158	1	115	A2590	L06 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5159	1	115	A2600	L06 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5160	1	115	A2610	L06 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5161	1	115	A2620	L06 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5162	1	116	A2630	L07 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5163	1	116	A2640	L07 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5164	1	116	A2650	L07 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5165	1	116	A2660	L07 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5166	1	116	A2670	L07 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5167	1	116	A2680	L07 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5168	1	116	A2690	L07 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5169	1	116	A2700	L07 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5170	1	116	A2710	L07 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5171	1	116	A2720	L07 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5172	1	116	A2730	L07 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5173	1	116	A2740	L07 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5174	1	116	A2750	L07 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5175	1	116	A2760	L07 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5176	1	116	A2770	L07 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5177	1	116	A2780	L07 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5178	1	117	A2790	L08 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5179	1	117	A2800	L08 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5180	1	117	A2810	L08 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5181	1	117	A2820	L08 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5182	1	117	A2830	L08 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5183	1	117	A2840	L08 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5184	1	117	A2850	L08 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5185	1	117	A2860	L08 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5186	1	117	A2870	L08 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5187	1	117	A2880	L08 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5188	1	117	A2890	L08 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5189	1	117	A2900	L08 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5190	1	117	A2910	L08 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5191	1	117	A2920	L08 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5192	1	117	A2930	L08 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5193	1	117	A2940	L08 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5194	1	118	A2950	L09 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5195	1	118	A2960	L09 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5196	1	118	A2970	L09 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5197	1	118	A2980	L09 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5198	1	118	A2990	L09 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5199	1	118	A3000	L09 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5200	1	118	A3010	L09 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5201	1	118	A3020	L09 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5202	1	118	A3030	L09 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5203	1	118	A3040	L09 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5204	1	118	A3050	L09 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5205	1	118	A3060	L09 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5206	1	118	A3070	L09 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5207	1	118	A3080	L09 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5208	1	118	A3090	L09 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5209	1	118	A3100	L09 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5210	1	119	A3110	L10 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5211	1	119	A3120	L10 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5212	1	119	A3130	L10 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5213	1	119	A3140	L10 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5214	1	119	A3150	L10 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5215	1	119	A3160	L10 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5216	1	119	A3170	L10 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5217	1	119	A3180	L10 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5218	1	119	A3190	L10 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5219	1	119	A3200	L10 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5220	1	119	A3210	L10 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5221	1	119	A3220	L10 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5222	1	119	A3230	L10 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5223	1	119	A3240	L10 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5224	1	119	A3250	L10 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5225	1	119	A3260	L10 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5226	1	120	A3270	L11 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5227	1	120	A3280	L11 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5228	1	120	A3290	L11 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5229	1	120	A3300	L11 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5230	1	120	A3310	L11 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5231	1	120	A3320	L11 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5232	1	120	A3330	L11 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5233	1	120	A3340	L11 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5234	1	120	A3350	L11 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5235	1	120	A3360	L11 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5236	1	120	A3370	L11 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5237	1	120	A3380	L11 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5238	1	120	A3390	L11 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5239	1	120	A3400	L11 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5240	1	120	A3410	L11 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5241	1	120	A3420	L11 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5242	1	121	A3430	L12 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5243	1	121	A3440	L12 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5244	1	121	A3450	L12 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5245	1	121	A3460	L12 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5246	1	121	A3470	L12 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5247	1	121	A3480	L12 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5248	1	121	A3490	L12 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5249	1	121	A3500	L12 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5250	1	121	A3510	L12 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5251	1	121	A3520	L12 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5252	1	121	A3530	L12 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5253	1	121	A3540	L12 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5254	1	121	A3550	L12 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5255	1	121	A3560	L12 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5256	1	121	A3570	L12 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5257	1	121	A3580	L12 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5258	1	122	A3590	L13 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5259	1	122	A3600	L13 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5260	1	122	A3610	L13 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5261	1	122	A3620	L13 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5262	1	122	A3630	L13 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5263	1	122	A3640	L13 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5264	1	122	A3650	L13 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5265	1	122	A3660	L13 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5266	1	122	A3670	L13 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5267	1	122	A3680	L13 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5268	1	122	A3690	L13 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5269	1	122	A3700	L13 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5270	1	122	A3710	L13 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5271	1	122	A3720	L13 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5272	1	122	A3730	L13 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5273	1	122	A3740	L13 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5274	1	123	A3750	L14 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5275	1	123	A3760	L14 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5276	1	123	A3770	L14 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5277	1	123	A3780	L14 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5278	1	123	A3790	L14 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5279	1	123	A3800	L14 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5280	1	123	A3810	L14 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5281	1	123	A3820	L14 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5282	1	123	A3830	L14 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5283	1	123	A3840	L14 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5284	1	123	A3850	L14 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5285	1	123	A3860	L14 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5286	1	123	A3870	L14 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5287	1	123	A3880	L14 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5288	1	123	A3890	L14 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5289	1	123	A3900	L14 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5290	1	124	A3910	L15 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5291	1	124	A3920	L15 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5292	1	124	A3930	L15 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5293	1	124	A3940	L15 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5294	1	124	A3950	L15 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5295	1	124	A3960	L15 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5296	1	124	A3970	L15 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5297	1	124	A3980	L15 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5298	1	124	A3990	L15 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5299	1	124	A4000	L15 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5300	1	124	A4010	L15 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5301	1	124	A4020	L15 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5302	1	124	A4030	L15 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5303	1	124	A4040	L15 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5304	1	124	A4050	L15 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5305	1	124	A4060	L15 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5306	1	125	A4070	L16 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5307	1	125	A4080	L16 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5308	1	125	A4090	L16 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5309	1	125	A4100	L16 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5310	1	125	A4110	L16 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5311	1	125	A4120	L16 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5312	1	125	A4130	L16 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5313	1	125	A4140	L16 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5314	1	125	A4150	L16 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5315	1	125	A4160	L16 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5316	1	125	A4170	L16 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5317	1	125	A4180	L16 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5318	1	125	A4190	L16 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5319	1	125	A4200	L16 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5320	1	125	A4210	L16 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5321	1	125	A4220	L16 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5322	1	126	A4230	L17 Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5323	1	126	A4240	L17 Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5324	1	126	A4250	L17 Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5325	1	126	A4260	L17 Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5326	1	126	A4270	L17 Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5327	1	126	A4280	L17 Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5328	1	126	A4290	L17 - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5329	1	126	A4300	L17 - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5330	1	126	A4310	L17 - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5331	1	126	A4320	L17 Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5332	1	126	A4330	L17 Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5333	1	126	A4340	L17 Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5334	1	126	A4350	L17 Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5335	1	126	A4360	L17 Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5336	1	126	A4370	L17 Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5337	1	126	A4380	L17 - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5338	1	127	A4390	RF Zone A - Column Rebar	TT_Task	24	TK_NotStart
+%R	5339	1	127	A4400	RF Zone A - Column Formwork	TT_Task	24	TK_NotStart
+%R	5340	1	127	A4410	RF Zone A - Column Concrete	TT_Task	24	TK_NotStart
+%R	5341	1	127	A4420	RF Zone B - Column Rebar	TT_Task	24	TK_NotStart
+%R	5342	1	127	A4430	RF Zone B - Column Formwork	TT_Task	24	TK_NotStart
+%R	5343	1	127	A4440	RF Zone B - Column Concrete	TT_Task	24	TK_NotStart
+%R	5344	1	127	A4450	RF - Core Wall Rebar	TT_Task	32	TK_NotStart
+%R	5345	1	127	A4460	RF - Core Wall Formwork	TT_Task	32	TK_NotStart
+%R	5346	1	127	A4470	RF - Core Wall Concrete	TT_Task	32	TK_NotStart
+%R	5347	1	127	A4480	RF Zone A - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5348	1	127	A4490	RF Zone A - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5349	1	127	A4500	RF Zone A - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5350	1	127	A4510	RF Zone B - Slab Formwork	TT_Task	40	TK_NotStart
+%R	5351	1	127	A4520	RF Zone B - Slab Rebar	TT_Task	40	TK_NotStart
+%R	5352	1	127	A4530	RF Zone B - Slab Concrete Pour	TT_Task	40	TK_NotStart
+%R	5353	1	127	A4540	RF - Staircase Construction	TT_Task	40	TK_NotStart
+%R	5354	1	129	A4550	Blockwork - Ground Floor	TT_Task	80	TK_NotStart
+%R	5355	1	129	A4560	Electrical First Fix - Ground Floor	TT_Task	80	TK_NotStart
+%R	5356	1	129	A4570	Plumbing First Fix - Ground Floor	TT_Task	80	TK_NotStart
+%R	5357	1	129	A4580	HVAC Ductwork & FCU Installation - Ground Floor	TT_Task	80	TK_NotStart
+%R	5358	1	129	A4590	Fire Fighting Sprinkler Piping - Ground Floor	TT_Task	80	TK_NotStart
+%R	5359	1	129	A4600	Fire Alarm & ELV Containment - Ground Floor	TT_Task	80	TK_NotStart
+%R	5360	1	129	A4610	Internal Plaster - Ground Floor	TT_Task	80	TK_NotStart
+%R	5361	1	129	A4620	Floor Screed - Ground Floor	TT_Task	80	TK_NotStart
+%R	5362	1	129	A4630	Wet Area Waterproofing - Ground Floor	TT_Task	80	TK_NotStart
+%R	5363	1	129	A4640	False Ceiling - Ground Floor	TT_Task	80	TK_NotStart
+%R	5364	1	129	A4650	Floor & Wall Tiling - Ground Floor	TT_Task	80	TK_NotStart
+%R	5365	1	129	A4660	Painting - Ground Floor	TT_Task	80	TK_NotStart
+%R	5366	1	129	A4670	Doors & Ironmongery - Ground Floor	TT_Task	80	TK_NotStart
+%R	5367	1	129	A4680	Kitchen & Wardrobe Joinery - Ground Floor	TT_Task	80	TK_NotStart
+%R	5368	1	129	A4690	MEP Second Fix & Fixtures - Ground Floor	TT_Task	80	TK_NotStart
+%R	5369	1	129	A4700	Final Cleaning & Snagging - Ground Floor	TT_Task	80	TK_NotStart
+%R	5370	1	130	A4710	Blockwork - Level 01	TT_Task	80	TK_NotStart
+%R	5371	1	130	A4720	Electrical First Fix - Level 01	TT_Task	80	TK_NotStart
+%R	5372	1	130	A4730	Plumbing First Fix - Level 01	TT_Task	80	TK_NotStart
+%R	5373	1	130	A4740	HVAC Ductwork & FCU Installation - Level 01	TT_Task	80	TK_NotStart
+%R	5374	1	130	A4750	Fire Fighting Sprinkler Piping - Level 01	TT_Task	80	TK_NotStart
+%R	5375	1	130	A4760	Fire Alarm & ELV Containment - Level 01	TT_Task	80	TK_NotStart
+%R	5376	1	130	A4770	Internal Plaster - Level 01	TT_Task	80	TK_NotStart
+%R	5377	1	130	A4780	Floor Screed - Level 01	TT_Task	80	TK_NotStart
+%R	5378	1	130	A4790	Wet Area Waterproofing - Level 01	TT_Task	80	TK_NotStart
+%R	5379	1	130	A4800	False Ceiling - Level 01	TT_Task	80	TK_NotStart
+%R	5380	1	130	A4810	Floor & Wall Tiling - Level 01	TT_Task	80	TK_NotStart
+%R	5381	1	130	A4820	Painting - Level 01	TT_Task	80	TK_NotStart
+%R	5382	1	130	A4830	Doors & Ironmongery - Level 01	TT_Task	80	TK_NotStart
+%R	5383	1	130	A4840	Kitchen & Wardrobe Joinery - Level 01	TT_Task	80	TK_NotStart
+%R	5384	1	130	A4850	MEP Second Fix & Fixtures - Level 01	TT_Task	80	TK_NotStart
+%R	5385	1	130	A4860	Final Cleaning & Snagging - Level 01	TT_Task	80	TK_NotStart
+%R	5386	1	131	A4870	Blockwork - Level 02	TT_Task	80	TK_NotStart
+%R	5387	1	131	A4880	Electrical First Fix - Level 02	TT_Task	80	TK_NotStart
+%R	5388	1	131	A4890	Plumbing First Fix - Level 02	TT_Task	80	TK_NotStart
+%R	5389	1	131	A4900	HVAC Ductwork & FCU Installation - Level 02	TT_Task	80	TK_NotStart
+%R	5390	1	131	A4910	Fire Fighting Sprinkler Piping - Level 02	TT_Task	80	TK_NotStart
+%R	5391	1	131	A4920	Fire Alarm & ELV Containment - Level 02	TT_Task	80	TK_NotStart
+%R	5392	1	131	A4930	Internal Plaster - Level 02	TT_Task	80	TK_NotStart
+%R	5393	1	131	A4940	Floor Screed - Level 02	TT_Task	80	TK_NotStart
+%R	5394	1	131	A4950	Wet Area Waterproofing - Level 02	TT_Task	80	TK_NotStart
+%R	5395	1	131	A4960	False Ceiling - Level 02	TT_Task	80	TK_NotStart
+%R	5396	1	131	A4970	Floor & Wall Tiling - Level 02	TT_Task	80	TK_NotStart
+%R	5397	1	131	A4980	Painting - Level 02	TT_Task	80	TK_NotStart
+%R	5398	1	131	A4990	Doors & Ironmongery - Level 02	TT_Task	80	TK_NotStart
+%R	5399	1	131	A5000	Kitchen & Wardrobe Joinery - Level 02	TT_Task	80	TK_NotStart
+%R	5400	1	131	A5010	MEP Second Fix & Fixtures - Level 02	TT_Task	80	TK_NotStart
+%R	5401	1	131	A5020	Final Cleaning & Snagging - Level 02	TT_Task	80	TK_NotStart
+%R	5402	1	132	A5030	Blockwork - Level 03	TT_Task	80	TK_NotStart
+%R	5403	1	132	A5040	Electrical First Fix - Level 03	TT_Task	80	TK_NotStart
+%R	5404	1	132	A5050	Plumbing First Fix - Level 03	TT_Task	80	TK_NotStart
+%R	5405	1	132	A5060	HVAC Ductwork & FCU Installation - Level 03	TT_Task	80	TK_NotStart
+%R	5406	1	132	A5070	Fire Fighting Sprinkler Piping - Level 03	TT_Task	80	TK_NotStart
+%R	5407	1	132	A5080	Fire Alarm & ELV Containment - Level 03	TT_Task	80	TK_NotStart
+%R	5408	1	132	A5090	Internal Plaster - Level 03	TT_Task	80	TK_NotStart
+%R	5409	1	132	A5100	Floor Screed - Level 03	TT_Task	80	TK_NotStart
+%R	5410	1	132	A5110	Wet Area Waterproofing - Level 03	TT_Task	80	TK_NotStart
+%R	5411	1	132	A5120	False Ceiling - Level 03	TT_Task	80	TK_NotStart
+%R	5412	1	132	A5130	Floor & Wall Tiling - Level 03	TT_Task	80	TK_NotStart
+%R	5413	1	132	A5140	Painting - Level 03	TT_Task	80	TK_NotStart
+%R	5414	1	132	A5150	Doors & Ironmongery - Level 03	TT_Task	80	TK_NotStart
+%R	5415	1	132	A5160	Kitchen & Wardrobe Joinery - Level 03	TT_Task	80	TK_NotStart
+%R	5416	1	132	A5170	MEP Second Fix & Fixtures - Level 03	TT_Task	80	TK_NotStart
+%R	5417	1	132	A5180	Final Cleaning & Snagging - Level 03	TT_Task	80	TK_NotStart
+%R	5418	1	133	A5190	Blockwork - Level 04	TT_Task	80	TK_NotStart
+%R	5419	1	133	A5200	Electrical First Fix - Level 04	TT_Task	80	TK_NotStart
+%R	5420	1	133	A5210	Plumbing First Fix - Level 04	TT_Task	80	TK_NotStart
+%R	5421	1	133	A5220	HVAC Ductwork & FCU Installation - Level 04	TT_Task	80	TK_NotStart
+%R	5422	1	133	A5230	Fire Fighting Sprinkler Piping - Level 04	TT_Task	80	TK_NotStart
+%R	5423	1	133	A5240	Fire Alarm & ELV Containment - Level 04	TT_Task	80	TK_NotStart
+%R	5424	1	133	A5250	Internal Plaster - Level 04	TT_Task	80	TK_NotStart
+%R	5425	1	133	A5260	Floor Screed - Level 04	TT_Task	80	TK_NotStart
+%R	5426	1	133	A5270	Wet Area Waterproofing - Level 04	TT_Task	80	TK_NotStart
+%R	5427	1	133	A5280	False Ceiling - Level 04	TT_Task	80	TK_NotStart
+%R	5428	1	133	A5290	Floor & Wall Tiling - Level 04	TT_Task	80	TK_NotStart
+%R	5429	1	133	A5300	Painting - Level 04	TT_Task	80	TK_NotStart
+%R	5430	1	133	A5310	Doors & Ironmongery - Level 04	TT_Task	80	TK_NotStart
+%R	5431	1	133	A5320	Kitchen & Wardrobe Joinery - Level 04	TT_Task	80	TK_NotStart
+%R	5432	1	133	A5330	MEP Second Fix & Fixtures - Level 04	TT_Task	80	TK_NotStart
+%R	5433	1	133	A5340	Final Cleaning & Snagging - Level 04	TT_Task	80	TK_NotStart
+%R	5434	1	134	A5350	Blockwork - Level 05	TT_Task	80	TK_NotStart
+%R	5435	1	134	A5360	Electrical First Fix - Level 05	TT_Task	80	TK_NotStart
+%R	5436	1	134	A5370	Plumbing First Fix - Level 05	TT_Task	80	TK_NotStart
+%R	5437	1	134	A5380	HVAC Ductwork & FCU Installation - Level 05	TT_Task	80	TK_NotStart
+%R	5438	1	134	A5390	Fire Fighting Sprinkler Piping - Level 05	TT_Task	80	TK_NotStart
+%R	5439	1	134	A5400	Fire Alarm & ELV Containment - Level 05	TT_Task	80	TK_NotStart
+%R	5440	1	134	A5410	Internal Plaster - Level 05	TT_Task	80	TK_NotStart
+%R	5441	1	134	A5420	Floor Screed - Level 05	TT_Task	80	TK_NotStart
+%R	5442	1	134	A5430	Wet Area Waterproofing - Level 05	TT_Task	80	TK_NotStart
+%R	5443	1	134	A5440	False Ceiling - Level 05	TT_Task	80	TK_NotStart
+%R	5444	1	134	A5450	Floor & Wall Tiling - Level 05	TT_Task	80	TK_NotStart
+%R	5445	1	134	A5460	Painting - Level 05	TT_Task	80	TK_NotStart
+%R	5446	1	134	A5470	Doors & Ironmongery - Level 05	TT_Task	80	TK_NotStart
+%R	5447	1	134	A5480	Kitchen & Wardrobe Joinery - Level 05	TT_Task	80	TK_NotStart
+%R	5448	1	134	A5490	MEP Second Fix & Fixtures - Level 05	TT_Task	80	TK_NotStart
+%R	5449	1	134	A5500	Final Cleaning & Snagging - Level 05	TT_Task	80	TK_NotStart
+%R	5450	1	135	A5510	Blockwork - Level 06	TT_Task	80	TK_NotStart
+%R	5451	1	135	A5520	Electrical First Fix - Level 06	TT_Task	80	TK_NotStart
+%R	5452	1	135	A5530	Plumbing First Fix - Level 06	TT_Task	80	TK_NotStart
+%R	5453	1	135	A5540	HVAC Ductwork & FCU Installation - Level 06	TT_Task	80	TK_NotStart
+%R	5454	1	135	A5550	Fire Fighting Sprinkler Piping - Level 06	TT_Task	80	TK_NotStart
+%R	5455	1	135	A5560	Fire Alarm & ELV Containment - Level 06	TT_Task	80	TK_NotStart
+%R	5456	1	135	A5570	Internal Plaster - Level 06	TT_Task	80	TK_NotStart
+%R	5457	1	135	A5580	Floor Screed - Level 06	TT_Task	80	TK_NotStart
+%R	5458	1	135	A5590	Wet Area Waterproofing - Level 06	TT_Task	80	TK_NotStart
+%R	5459	1	135	A5600	False Ceiling - Level 06	TT_Task	80	TK_NotStart
+%R	5460	1	135	A5610	Floor & Wall Tiling - Level 06	TT_Task	80	TK_NotStart
+%R	5461	1	135	A5620	Painting - Level 06	TT_Task	80	TK_NotStart
+%R	5462	1	135	A5630	Doors & Ironmongery - Level 06	TT_Task	80	TK_NotStart
+%R	5463	1	135	A5640	Kitchen & Wardrobe Joinery - Level 06	TT_Task	80	TK_NotStart
+%R	5464	1	135	A5650	MEP Second Fix & Fixtures - Level 06	TT_Task	80	TK_NotStart
+%R	5465	1	135	A5660	Final Cleaning & Snagging - Level 06	TT_Task	80	TK_NotStart
+%R	5466	1	136	A5670	Blockwork - Level 07	TT_Task	80	TK_NotStart
+%R	5467	1	136	A5680	Electrical First Fix - Level 07	TT_Task	80	TK_NotStart
+%R	5468	1	136	A5690	Plumbing First Fix - Level 07	TT_Task	80	TK_NotStart
+%R	5469	1	136	A5700	HVAC Ductwork & FCU Installation - Level 07	TT_Task	80	TK_NotStart
+%R	5470	1	136	A5710	Fire Fighting Sprinkler Piping - Level 07	TT_Task	80	TK_NotStart
+%R	5471	1	136	A5720	Fire Alarm & ELV Containment - Level 07	TT_Task	80	TK_NotStart
+%R	5472	1	136	A5730	Internal Plaster - Level 07	TT_Task	80	TK_NotStart
+%R	5473	1	136	A5740	Floor Screed - Level 07	TT_Task	80	TK_NotStart
+%R	5474	1	136	A5750	Wet Area Waterproofing - Level 07	TT_Task	80	TK_NotStart
+%R	5475	1	136	A5760	False Ceiling - Level 07	TT_Task	80	TK_NotStart
+%R	5476	1	136	A5770	Floor & Wall Tiling - Level 07	TT_Task	80	TK_NotStart
+%R	5477	1	136	A5780	Painting - Level 07	TT_Task	80	TK_NotStart
+%R	5478	1	136	A5790	Doors & Ironmongery - Level 07	TT_Task	80	TK_NotStart
+%R	5479	1	136	A5800	Kitchen & Wardrobe Joinery - Level 07	TT_Task	80	TK_NotStart
+%R	5480	1	136	A5810	MEP Second Fix & Fixtures - Level 07	TT_Task	80	TK_NotStart
+%R	5481	1	136	A5820	Final Cleaning & Snagging - Level 07	TT_Task	80	TK_NotStart
+%R	5482	1	137	A5830	Blockwork - Level 08	TT_Task	80	TK_NotStart
+%R	5483	1	137	A5840	Electrical First Fix - Level 08	TT_Task	80	TK_NotStart
+%R	5484	1	137	A5850	Plumbing First Fix - Level 08	TT_Task	80	TK_NotStart
+%R	5485	1	137	A5860	HVAC Ductwork & FCU Installation - Level 08	TT_Task	80	TK_NotStart
+%R	5486	1	137	A5870	Fire Fighting Sprinkler Piping - Level 08	TT_Task	80	TK_NotStart
+%R	5487	1	137	A5880	Fire Alarm & ELV Containment - Level 08	TT_Task	80	TK_NotStart
+%R	5488	1	137	A5890	Internal Plaster - Level 08	TT_Task	80	TK_NotStart
+%R	5489	1	137	A5900	Floor Screed - Level 08	TT_Task	80	TK_NotStart
+%R	5490	1	137	A5910	Wet Area Waterproofing - Level 08	TT_Task	80	TK_NotStart
+%R	5491	1	137	A5920	False Ceiling - Level 08	TT_Task	80	TK_NotStart
+%R	5492	1	137	A5930	Floor & Wall Tiling - Level 08	TT_Task	80	TK_NotStart
+%R	5493	1	137	A5940	Painting - Level 08	TT_Task	80	TK_NotStart
+%R	5494	1	137	A5950	Doors & Ironmongery - Level 08	TT_Task	80	TK_NotStart
+%R	5495	1	137	A5960	Kitchen & Wardrobe Joinery - Level 08	TT_Task	80	TK_NotStart
+%R	5496	1	137	A5970	MEP Second Fix & Fixtures - Level 08	TT_Task	80	TK_NotStart
+%R	5497	1	137	A5980	Final Cleaning & Snagging - Level 08	TT_Task	80	TK_NotStart
+%R	5498	1	138	A5990	Blockwork - Level 09	TT_Task	80	TK_NotStart
+%R	5499	1	138	A6000	Electrical First Fix - Level 09	TT_Task	80	TK_NotStart
+%R	5500	1	138	A6010	Plumbing First Fix - Level 09	TT_Task	80	TK_NotStart
+%R	5501	1	138	A6020	HVAC Ductwork & FCU Installation - Level 09	TT_Task	80	TK_NotStart
+%R	5502	1	138	A6030	Fire Fighting Sprinkler Piping - Level 09	TT_Task	80	TK_NotStart
+%R	5503	1	138	A6040	Fire Alarm & ELV Containment - Level 09	TT_Task	80	TK_NotStart
+%R	5504	1	138	A6050	Internal Plaster - Level 09	TT_Task	80	TK_NotStart
+%R	5505	1	138	A6060	Floor Screed - Level 09	TT_Task	80	TK_NotStart
+%R	5506	1	138	A6070	Wet Area Waterproofing - Level 09	TT_Task	80	TK_NotStart
+%R	5507	1	138	A6080	False Ceiling - Level 09	TT_Task	80	TK_NotStart
+%R	5508	1	138	A6090	Floor & Wall Tiling - Level 09	TT_Task	80	TK_NotStart
+%R	5509	1	138	A6100	Painting - Level 09	TT_Task	80	TK_NotStart
+%R	5510	1	138	A6110	Doors & Ironmongery - Level 09	TT_Task	80	TK_NotStart
+%R	5511	1	138	A6120	Kitchen & Wardrobe Joinery - Level 09	TT_Task	80	TK_NotStart
+%R	5512	1	138	A6130	MEP Second Fix & Fixtures - Level 09	TT_Task	80	TK_NotStart
+%R	5513	1	138	A6140	Final Cleaning & Snagging - Level 09	TT_Task	80	TK_NotStart
+%R	5514	1	139	A6150	Blockwork - Level 10	TT_Task	80	TK_NotStart
+%R	5515	1	139	A6160	Electrical First Fix - Level 10	TT_Task	80	TK_NotStart
+%R	5516	1	139	A6170	Plumbing First Fix - Level 10	TT_Task	80	TK_NotStart
+%R	5517	1	139	A6180	HVAC Ductwork & FCU Installation - Level 10	TT_Task	80	TK_NotStart
+%R	5518	1	139	A6190	Fire Fighting Sprinkler Piping - Level 10	TT_Task	80	TK_NotStart
+%R	5519	1	139	A6200	Fire Alarm & ELV Containment - Level 10	TT_Task	80	TK_NotStart
+%R	5520	1	139	A6210	Internal Plaster - Level 10	TT_Task	80	TK_NotStart
+%R	5521	1	139	A6220	Floor Screed - Level 10	TT_Task	80	TK_NotStart
+%R	5522	1	139	A6230	Wet Area Waterproofing - Level 10	TT_Task	80	TK_NotStart
+%R	5523	1	139	A6240	False Ceiling - Level 10	TT_Task	80	TK_NotStart
+%R	5524	1	139	A6250	Floor & Wall Tiling - Level 10	TT_Task	80	TK_NotStart
+%R	5525	1	139	A6260	Painting - Level 10	TT_Task	80	TK_NotStart
+%R	5526	1	139	A6270	Doors & Ironmongery - Level 10	TT_Task	80	TK_NotStart
+%R	5527	1	139	A6280	Kitchen & Wardrobe Joinery - Level 10	TT_Task	80	TK_NotStart
+%R	5528	1	139	A6290	MEP Second Fix & Fixtures - Level 10	TT_Task	80	TK_NotStart
+%R	5529	1	139	A6300	Final Cleaning & Snagging - Level 10	TT_Task	80	TK_NotStart
+%R	5530	1	140	A6310	Blockwork - Level 11	TT_Task	80	TK_NotStart
+%R	5531	1	140	A6320	Electrical First Fix - Level 11	TT_Task	80	TK_NotStart
+%R	5532	1	140	A6330	Plumbing First Fix - Level 11	TT_Task	80	TK_NotStart
+%R	5533	1	140	A6340	HVAC Ductwork & FCU Installation - Level 11	TT_Task	80	TK_NotStart
+%R	5534	1	140	A6350	Fire Fighting Sprinkler Piping - Level 11	TT_Task	80	TK_NotStart
+%R	5535	1	140	A6360	Fire Alarm & ELV Containment - Level 11	TT_Task	80	TK_NotStart
+%R	5536	1	140	A6370	Internal Plaster - Level 11	TT_Task	80	TK_NotStart
+%R	5537	1	140	A6380	Floor Screed - Level 11	TT_Task	80	TK_NotStart
+%R	5538	1	140	A6390	Wet Area Waterproofing - Level 11	TT_Task	80	TK_NotStart
+%R	5539	1	140	A6400	False Ceiling - Level 11	TT_Task	80	TK_NotStart
+%R	5540	1	140	A6410	Floor & Wall Tiling - Level 11	TT_Task	80	TK_NotStart
+%R	5541	1	140	A6420	Painting - Level 11	TT_Task	80	TK_NotStart
+%R	5542	1	140	A6430	Doors & Ironmongery - Level 11	TT_Task	80	TK_NotStart
+%R	5543	1	140	A6440	Kitchen & Wardrobe Joinery - Level 11	TT_Task	80	TK_NotStart
+%R	5544	1	140	A6450	MEP Second Fix & Fixtures - Level 11	TT_Task	80	TK_NotStart
+%R	5545	1	140	A6460	Final Cleaning & Snagging - Level 11	TT_Task	80	TK_NotStart
+%R	5546	1	141	A6470	Blockwork - Level 12	TT_Task	80	TK_NotStart
+%R	5547	1	141	A6480	Electrical First Fix - Level 12	TT_Task	80	TK_NotStart
+%R	5548	1	141	A6490	Plumbing First Fix - Level 12	TT_Task	80	TK_NotStart
+%R	5549	1	141	A6500	HVAC Ductwork & FCU Installation - Level 12	TT_Task	80	TK_NotStart
+%R	5550	1	141	A6510	Fire Fighting Sprinkler Piping - Level 12	TT_Task	80	TK_NotStart
+%R	5551	1	141	A6520	Fire Alarm & ELV Containment - Level 12	TT_Task	80	TK_NotStart
+%R	5552	1	141	A6530	Internal Plaster - Level 12	TT_Task	80	TK_NotStart
+%R	5553	1	141	A6540	Floor Screed - Level 12	TT_Task	80	TK_NotStart
+%R	5554	1	141	A6550	Wet Area Waterproofing - Level 12	TT_Task	80	TK_NotStart
+%R	5555	1	141	A6560	False Ceiling - Level 12	TT_Task	80	TK_NotStart
+%R	5556	1	141	A6570	Floor & Wall Tiling - Level 12	TT_Task	80	TK_NotStart
+%R	5557	1	141	A6580	Painting - Level 12	TT_Task	80	TK_NotStart
+%R	5558	1	141	A6590	Doors & Ironmongery - Level 12	TT_Task	80	TK_NotStart
+%R	5559	1	141	A6600	Kitchen & Wardrobe Joinery - Level 12	TT_Task	80	TK_NotStart
+%R	5560	1	141	A6610	MEP Second Fix & Fixtures - Level 12	TT_Task	80	TK_NotStart
+%R	5561	1	141	A6620	Final Cleaning & Snagging - Level 12	TT_Task	80	TK_NotStart
+%R	5562	1	142	A6630	Blockwork - Level 13	TT_Task	80	TK_NotStart
+%R	5563	1	142	A6640	Electrical First Fix - Level 13	TT_Task	80	TK_NotStart
+%R	5564	1	142	A6650	Plumbing First Fix - Level 13	TT_Task	80	TK_NotStart
+%R	5565	1	142	A6660	HVAC Ductwork & FCU Installation - Level 13	TT_Task	80	TK_NotStart
+%R	5566	1	142	A6670	Fire Fighting Sprinkler Piping - Level 13	TT_Task	80	TK_NotStart
+%R	5567	1	142	A6680	Fire Alarm & ELV Containment - Level 13	TT_Task	80	TK_NotStart
+%R	5568	1	142	A6690	Internal Plaster - Level 13	TT_Task	80	TK_NotStart
+%R	5569	1	142	A6700	Floor Screed - Level 13	TT_Task	80	TK_NotStart
+%R	5570	1	142	A6710	Wet Area Waterproofing - Level 13	TT_Task	80	TK_NotStart
+%R	5571	1	142	A6720	False Ceiling - Level 13	TT_Task	80	TK_NotStart
+%R	5572	1	142	A6730	Floor & Wall Tiling - Level 13	TT_Task	80	TK_NotStart
+%R	5573	1	142	A6740	Painting - Level 13	TT_Task	80	TK_NotStart
+%R	5574	1	142	A6750	Doors & Ironmongery - Level 13	TT_Task	80	TK_NotStart
+%R	5575	1	142	A6760	Kitchen & Wardrobe Joinery - Level 13	TT_Task	80	TK_NotStart
+%R	5576	1	142	A6770	MEP Second Fix & Fixtures - Level 13	TT_Task	80	TK_NotStart
+%R	5577	1	142	A6780	Final Cleaning & Snagging - Level 13	TT_Task	80	TK_NotStart
+%R	5578	1	143	A6790	Blockwork - Level 14	TT_Task	80	TK_NotStart
+%R	5579	1	143	A6800	Electrical First Fix - Level 14	TT_Task	80	TK_NotStart
+%R	5580	1	143	A6810	Plumbing First Fix - Level 14	TT_Task	80	TK_NotStart
+%R	5581	1	143	A6820	HVAC Ductwork & FCU Installation - Level 14	TT_Task	80	TK_NotStart
+%R	5582	1	143	A6830	Fire Fighting Sprinkler Piping - Level 14	TT_Task	80	TK_NotStart
+%R	5583	1	143	A6840	Fire Alarm & ELV Containment - Level 14	TT_Task	80	TK_NotStart
+%R	5584	1	143	A6850	Internal Plaster - Level 14	TT_Task	80	TK_NotStart
+%R	5585	1	143	A6860	Floor Screed - Level 14	TT_Task	80	TK_NotStart
+%R	5586	1	143	A6870	Wet Area Waterproofing - Level 14	TT_Task	80	TK_NotStart
+%R	5587	1	143	A6880	False Ceiling - Level 14	TT_Task	80	TK_NotStart
+%R	5588	1	143	A6890	Floor & Wall Tiling - Level 14	TT_Task	80	TK_NotStart
+%R	5589	1	143	A6900	Painting - Level 14	TT_Task	80	TK_NotStart
+%R	5590	1	143	A6910	Doors & Ironmongery - Level 14	TT_Task	80	TK_NotStart
+%R	5591	1	143	A6920	Kitchen & Wardrobe Joinery - Level 14	TT_Task	80	TK_NotStart
+%R	5592	1	143	A6930	MEP Second Fix & Fixtures - Level 14	TT_Task	80	TK_NotStart
+%R	5593	1	143	A6940	Final Cleaning & Snagging - Level 14	TT_Task	80	TK_NotStart
+%R	5594	1	144	A6950	Blockwork - Level 15	TT_Task	80	TK_NotStart
+%R	5595	1	144	A6960	Electrical First Fix - Level 15	TT_Task	80	TK_NotStart
+%R	5596	1	144	A6970	Plumbing First Fix - Level 15	TT_Task	80	TK_NotStart
+%R	5597	1	144	A6980	HVAC Ductwork & FCU Installation - Level 15	TT_Task	80	TK_NotStart
+%R	5598	1	144	A6990	Fire Fighting Sprinkler Piping - Level 15	TT_Task	80	TK_NotStart
+%R	5599	1	144	A7000	Fire Alarm & ELV Containment - Level 15	TT_Task	80	TK_NotStart
+%R	5600	1	144	A7010	Internal Plaster - Level 15	TT_Task	80	TK_NotStart
+%R	5601	1	144	A7020	Floor Screed - Level 15	TT_Task	80	TK_NotStart
+%R	5602	1	144	A7030	Wet Area Waterproofing - Level 15	TT_Task	80	TK_NotStart
+%R	5603	1	144	A7040	False Ceiling - Level 15	TT_Task	80	TK_NotStart
+%R	5604	1	144	A7050	Floor & Wall Tiling - Level 15	TT_Task	80	TK_NotStart
+%R	5605	1	144	A7060	Painting - Level 15	TT_Task	80	TK_NotStart
+%R	5606	1	144	A7070	Doors & Ironmongery - Level 15	TT_Task	80	TK_NotStart
+%R	5607	1	144	A7080	Kitchen & Wardrobe Joinery - Level 15	TT_Task	80	TK_NotStart
+%R	5608	1	144	A7090	MEP Second Fix & Fixtures - Level 15	TT_Task	80	TK_NotStart
+%R	5609	1	144	A7100	Final Cleaning & Snagging - Level 15	TT_Task	80	TK_NotStart
+%R	5610	1	145	A7110	Blockwork - Level 16	TT_Task	80	TK_NotStart
+%R	5611	1	145	A7120	Electrical First Fix - Level 16	TT_Task	80	TK_NotStart
+%R	5612	1	145	A7130	Plumbing First Fix - Level 16	TT_Task	80	TK_NotStart
+%R	5613	1	145	A7140	HVAC Ductwork & FCU Installation - Level 16	TT_Task	80	TK_NotStart
+%R	5614	1	145	A7150	Fire Fighting Sprinkler Piping - Level 16	TT_Task	80	TK_NotStart
+%R	5615	1	145	A7160	Fire Alarm & ELV Containment - Level 16	TT_Task	80	TK_NotStart
+%R	5616	1	145	A7170	Internal Plaster - Level 16	TT_Task	80	TK_NotStart
+%R	5617	1	145	A7180	Floor Screed - Level 16	TT_Task	80	TK_NotStart
+%R	5618	1	145	A7190	Wet Area Waterproofing - Level 16	TT_Task	80	TK_NotStart
+%R	5619	1	145	A7200	False Ceiling - Level 16	TT_Task	80	TK_NotStart
+%R	5620	1	145	A7210	Floor & Wall Tiling - Level 16	TT_Task	80	TK_NotStart
+%R	5621	1	145	A7220	Painting - Level 16	TT_Task	80	TK_NotStart
+%R	5622	1	145	A7230	Doors & Ironmongery - Level 16	TT_Task	80	TK_NotStart
+%R	5623	1	145	A7240	Kitchen & Wardrobe Joinery - Level 16	TT_Task	80	TK_NotStart
+%R	5624	1	145	A7250	MEP Second Fix & Fixtures - Level 16	TT_Task	80	TK_NotStart
+%R	5625	1	145	A7260	Final Cleaning & Snagging - Level 16	TT_Task	80	TK_NotStart
+%R	5626	1	146	A7270	Blockwork - Level 17	TT_Task	80	TK_NotStart
+%R	5627	1	146	A7280	Electrical First Fix - Level 17	TT_Task	80	TK_NotStart
+%R	5628	1	146	A7290	Plumbing First Fix - Level 17	TT_Task	80	TK_NotStart
+%R	5629	1	146	A7300	HVAC Ductwork & FCU Installation - Level 17	TT_Task	80	TK_NotStart
+%R	5630	1	146	A7310	Fire Fighting Sprinkler Piping - Level 17	TT_Task	80	TK_NotStart
+%R	5631	1	146	A7320	Fire Alarm & ELV Containment - Level 17	TT_Task	80	TK_NotStart
+%R	5632	1	146	A7330	Internal Plaster - Level 17	TT_Task	80	TK_NotStart
+%R	5633	1	146	A7340	Floor Screed - Level 17	TT_Task	80	TK_NotStart
+%R	5634	1	146	A7350	Wet Area Waterproofing - Level 17	TT_Task	80	TK_NotStart
+%R	5635	1	146	A7360	False Ceiling - Level 17	TT_Task	80	TK_NotStart
+%R	5636	1	146	A7370	Floor & Wall Tiling - Level 17	TT_Task	80	TK_NotStart
+%R	5637	1	146	A7380	Painting - Level 17	TT_Task	80	TK_NotStart
+%R	5638	1	146	A7390	Doors & Ironmongery - Level 17	TT_Task	80	TK_NotStart
+%R	5639	1	146	A7400	Kitchen & Wardrobe Joinery - Level 17	TT_Task	80	TK_NotStart
+%R	5640	1	146	A7410	MEP Second Fix & Fixtures - Level 17	TT_Task	80	TK_NotStart
+%R	5641	1	146	A7420	Final Cleaning & Snagging - Level 17	TT_Task	80	TK_NotStart
+%R	5642	1	147	A7430	Basement Blockwork - B2	TT_Task	80	TK_NotStart
+%R	5643	1	147	A7440	Basement MEP Services - B2	TT_Task	80	TK_NotStart
+%R	5644	1	147	A7450	Epoxy Floor Coating - B2	TT_Task	80	TK_NotStart
+%R	5645	1	147	A7460	Basement Painting - B2	TT_Task	80	TK_NotStart
+%R	5646	1	148	A7470	Basement Blockwork - B1	TT_Task	80	TK_NotStart
+%R	5647	1	148	A7480	Basement MEP Services - B1	TT_Task	80	TK_NotStart
+%R	5648	1	148	A7490	Epoxy Floor Coating - B1	TT_Task	80	TK_NotStart
+%R	5649	1	148	A7500	Basement Painting - B1	TT_Task	80	TK_NotStart
+%R	5650	1	149	A7510	Curtain Wall Installation - Ground Floor	TT_Task	60	TK_NotStart
+%R	5651	1	149	A7520	Curtain Wall Installation - Level 01	TT_Task	60	TK_NotStart
+%R	5652	1	149	A7530	Curtain Wall Installation - Level 02	TT_Task	60	TK_NotStart
+%R	5653	1	149	A7540	Curtain Wall Installation - Level 03	TT_Task	60	TK_NotStart
+%R	5654	1	149	A7550	Curtain Wall Installation - Level 04	TT_Task	60	TK_NotStart
+%R	5655	1	149	A7560	Curtain Wall Installation - Level 05	TT_Task	60	TK_NotStart
+%R	5656	1	149	A7570	Curtain Wall Installation - Level 06	TT_Task	60	TK_NotStart
+%R	5657	1	149	A7580	Curtain Wall Installation - Level 07	TT_Task	60	TK_NotStart
+%R	5658	1	149	A7590	Curtain Wall Installation - Level 08	TT_Task	60	TK_NotStart
+%R	5659	1	149	A7600	Curtain Wall Installation - Level 09	TT_Task	60	TK_NotStart
+%R	5660	1	149	A7610	Curtain Wall Installation - Level 10	TT_Task	60	TK_NotStart
+%R	5661	1	149	A7620	Curtain Wall Installation - Level 11	TT_Task	60	TK_NotStart
+%R	5662	1	149	A7630	Curtain Wall Installation - Level 12	TT_Task	60	TK_NotStart
+%R	5663	1	149	A7640	Curtain Wall Installation - Level 13	TT_Task	60	TK_NotStart
+%R	5664	1	149	A7650	Curtain Wall Installation - Level 14	TT_Task	60	TK_NotStart
+%R	5665	1	149	A7660	Curtain Wall Installation - Level 15	TT_Task	60	TK_NotStart
+%R	5666	1	149	A7670	Curtain Wall Installation - Level 16	TT_Task	60	TK_NotStart
+%R	5667	1	149	A7680	Curtain Wall Installation - Level 17	TT_Task	60	TK_NotStart
+%R	5668	1	150	A7690	Roof Waterproofing & Insulation	TT_Task	80	TK_NotStart
+%R	5669	1	150	A7700	Roof Screed & Tiling	TT_Task	60	TK_NotStart
+%R	5670	1	150	A7710	Rooftop MEP Plant Installation	TT_Task	200	TK_NotStart
+%R	5671	1	151	A7720	Lift Installation - Lift 1	TT_Task	400	TK_NotStart
+%R	5672	1	151	A7730	Lift Installation - Lift 2	TT_Task	400	TK_NotStart
+%R	5673	1	151	A7740	Lift Installation - Lift 3	TT_Task	400	TK_NotStart
+%R	5674	1	151	A7750	Lift Installation - Lift 4	TT_Task	400	TK_NotStart
+%R	5675	1	152	A7760	Testing & Commissioning - MEP Systems	TT_Task	400	TK_NotStart
+%R	5676	1	153	A7770	External Works - Hardscape & Roads	TT_Task	300	TK_NotStart
+%R	5677	1	153	A7780	External Works - Landscaping	TT_Task	200	TK_NotStart
+%R	5678	1	153	A7790	Boundary Wall & Gates	TT_Task	150	TK_NotStart
+%E

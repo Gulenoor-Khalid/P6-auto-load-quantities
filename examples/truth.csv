@@ -1,0 +1,758 @@
+key,expected,description
+Bill 1 - Preliminaries!R5,A1020,"Site establishment, mobilisation and temporary facilities"
+Bill 1 - Preliminaries!R6,PRELIM,Project manager and site staff for 30 months
+Bill 1 - Preliminaries!R7,PRELIM,Contractor's all risk insurance
+Bill 1 - Preliminaries!R8,PRELIM,Performance bond
+Bill 1 - Preliminaries!R9,PRELIM,Temporary site power and water
+Bill 1 - Preliminaries!R10,PRELIM,"Tower crane hire and operation, 2 nr"
+Bill 1 - Preliminaries!R11,PRELIM,Site security and hoarding
+Bill 1 - Preliminaries!R12,PRELIM,Health and safety provisions
+Bill 1 - Preliminaries!R13,A1020,Demobilisation and final clean
+Bill 2 - Substructure!R5,A1060,"Excavate to reduced levels in any material, max depth 12m"
+Bill 2 - Substructure!R6,A1060,Disposal of excavated material off site to approved tip
+Bill 2 - Substructure!R7,A1070,"Secant pile shoring wall 900mm dia, 18m deep"
+Bill 2 - Substructure!R8,A1080,Dewatering system installation and operation
+Bill 2 - Substructure!R9,A1180,"Backfilling around basement walls with selected material, compacted"
+Bill 2 - Substructure!R11,A1090,"Bored cast in situ piles 1000mm dia, Zone A"
+Bill 2 - Substructure!R12,A1100,"Bored cast in situ piles 1000mm dia, Zone B"
+Bill 2 - Substructure!R14,A1130,"Blinding concrete 75mm thick under raft, Zone A"
+Bill 2 - Substructure!R15,A1110,"Pile cap concrete C45 including trimming pile heads, Zone A"
+Bill 2 - Substructure!R16,A1160,"Raft foundation concrete grade C45, Zone A"
+Bill 2 - Substructure!R17,A1160,"High yield reinforcement to raft foundation, Zone A"
+Bill 2 - Substructure!R18,A1140,"Blinding concrete 75mm thick under raft, Zone B"
+Bill 2 - Substructure!R19,A1120,"Pile cap concrete C45 including trimming pile heads, Zone B"
+Bill 2 - Substructure!R20,A1170,"Raft foundation concrete grade C45, Zone B"
+Bill 2 - Substructure!R21,A1170,"High yield reinforcement to raft foundation, Zone B"
+Bill 2 - Substructure!R22,A1150,Bituminous waterproofing membrane to underside of raft
+Bill 3 - Superstructure!R5,A1210;A1240,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R6,A1190;A1220,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R7,A1200;A1230,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R8,A1270,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R9,A1250,Reinforcement to core walls
+Bill 3 - Superstructure!R10,A1260,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R11,A1300,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R12,A1290,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R13,A1280,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R14,A1330,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R15,A1320,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R16,A1310,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R17,A1340,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R19,A1370;A1400,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R20,A1350;A1380,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R21,A1360;A1390,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R22,A1430,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R23,A1410,Reinforcement to core walls
+Bill 3 - Superstructure!R24,A1420,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R25,A1460,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R26,A1450,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R27,A1440,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R28,A1490,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R29,A1480,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R30,A1470,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R31,A1500,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R33,A1530;A1560,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R34,A1510;A1540,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R35,A1520;A1550,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R36,A1590,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R37,A1570,Reinforcement to core walls
+Bill 3 - Superstructure!R38,A1580,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R39,A1620,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R40,A1610,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R41,A1600,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R42,A1650,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R43,A1640,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R44,A1630,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R45,A1660,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R47,A1690;A1720,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R48,A1670;A1700,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R49,A1680;A1710,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R50,A1750,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R51,A1730,Reinforcement to core walls
+Bill 3 - Superstructure!R52,A1740,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R53,A1780,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R54,A1770,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R55,A1760,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R56,A1810,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R57,A1800,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R58,A1790,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R59,A1820,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R61,A1850;A1880,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R62,A1830;A1860,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R63,A1840;A1870,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R64,A1910,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R65,A1890,Reinforcement to core walls
+Bill 3 - Superstructure!R66,A1900,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R67,A1940,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R68,A1930,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R69,A1920,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R70,A1970,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R71,A1960,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R72,A1950,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R73,A1980,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R75,A2010;A2040,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R76,A1990;A2020,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R77,A2000;A2030,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R78,A2070,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R79,A2050,Reinforcement to core walls
+Bill 3 - Superstructure!R80,A2060,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R81,A2100,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R82,A2090,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R83,A2080,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R84,A2130,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R85,A2120,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R86,A2110,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R87,A2140,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R89,A2170;A2200,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R90,A2150;A2180,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R91,A2160;A2190,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R92,A2230,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R93,A2210,Reinforcement to core walls
+Bill 3 - Superstructure!R94,A2220,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R95,A2260,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R96,A2250,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R97,A2240,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R98,A2290,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R99,A2280,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R100,A2270,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R101,A2300,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R103,A2330;A2360,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R104,A2310;A2340,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R105,A2320;A2350,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R106,A2390,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R107,A2370,Reinforcement to core walls
+Bill 3 - Superstructure!R108,A2380,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R109,A2420,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R110,A2410,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R111,A2400,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R112,A2450,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R113,A2440,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R114,A2430,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R115,A2460,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R117,A2490;A2520,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R118,A2470;A2500,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R119,A2480;A2510,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R120,A2550,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R121,A2530,Reinforcement to core walls
+Bill 3 - Superstructure!R122,A2540,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R123,A2580,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R124,A2570,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R125,A2560,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R126,A2610,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R127,A2600,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R128,A2590,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R129,A2620,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R131,A2650;A2680,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R132,A2630;A2660,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R133,A2640;A2670,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R134,A2710,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R135,A2690,Reinforcement to core walls
+Bill 3 - Superstructure!R136,A2700,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R137,A2740,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R138,A2730,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R139,A2720,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R140,A2770,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R141,A2760,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R142,A2750,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R143,A2780,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R145,A2810;A2840,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R146,A2790;A2820,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R147,A2800;A2830,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R148,A2870,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R149,A2850,Reinforcement to core walls
+Bill 3 - Superstructure!R150,A2860,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R151,A2900,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R152,A2890,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R153,A2880,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R154,A2930,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R155,A2920,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R156,A2910,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R157,A2940,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R159,A2970;A3000,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R160,A2950;A2980,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R161,A2960;A2990,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R162,A3030,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R163,A3010,Reinforcement to core walls
+Bill 3 - Superstructure!R164,A3020,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R165,A3060,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R166,A3050,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R167,A3040,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R168,A3090,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R169,A3080,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R170,A3070,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R171,A3100,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R173,A3130;A3160,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R174,A3110;A3140,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R175,A3120;A3150,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R176,A3190,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R177,A3170,Reinforcement to core walls
+Bill 3 - Superstructure!R178,A3180,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R179,A3220,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R180,A3210,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R181,A3200,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R182,A3250,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R183,A3240,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R184,A3230,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R185,A3260,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R187,A3290;A3320,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R188,A3270;A3300,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R189,A3280;A3310,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R190,A3350,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R191,A3330,Reinforcement to core walls
+Bill 3 - Superstructure!R192,A3340,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R193,A3380,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R194,A3370,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R195,A3360,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R196,A3410,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R197,A3400,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R198,A3390,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R199,A3420,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R201,A3450;A3480,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R202,A3430;A3460,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R203,A3440;A3470,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R204,A3510,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R205,A3490,Reinforcement to core walls
+Bill 3 - Superstructure!R206,A3500,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R207,A3540,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R208,A3530,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R209,A3520,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R210,A3570,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R211,A3560,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R212,A3550,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R213,A3580,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R215,A3610;A3640,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R216,A3590;A3620,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R217,A3600;A3630,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R218,A3670,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R219,A3650,Reinforcement to core walls
+Bill 3 - Superstructure!R220,A3660,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R221,A3700,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R222,A3690,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R223,A3680,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R224,A3730,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R225,A3720,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R226,A3710,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R227,A3740,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R229,A3770;A3800,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R230,A3750;A3780,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R231,A3760;A3790,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R232,A3830,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R233,A3810,Reinforcement to core walls
+Bill 3 - Superstructure!R234,A3820,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R235,A3860,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R236,A3850,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R237,A3840,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R238,A3890,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R239,A3880,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R240,A3870,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R241,A3900,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R243,A3930;A3960,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R244,A3910;A3940,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R245,A3920;A3950,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R246,A3990,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R247,A3970,Reinforcement to core walls
+Bill 3 - Superstructure!R248,A3980,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R249,A4020,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R250,A4010,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R251,A4000,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R252,A4050,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R253,A4040,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R254,A4030,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R255,A4060,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R257,A4090;A4120,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R258,A4070;A4100,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R259,A4080;A4110,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R260,A4150,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R261,A4130,Reinforcement to core walls
+Bill 3 - Superstructure!R262,A4140,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R263,A4180,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R264,A4170,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R265,A4160,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R266,A4210,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R267,A4200,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R268,A4190,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R269,A4220,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R271,A4250;A4280,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R272,A4230;A4260,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R273,A4240;A4270,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R274,A4310,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R275,A4290,Reinforcement to core walls
+Bill 3 - Superstructure!R276,A4300,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R277,A4340,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R278,A4330,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R279,A4320,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R280,A4370,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R281,A4360,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R282,A4350,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R283,A4380,In-situ staircase flights and landings complete
+Bill 3 - Superstructure!R285,A4410;A4440,Reinforced concrete grade C60 in columns
+Bill 3 - Superstructure!R286,A4390;A4420,"High yield bar reinforcement to columns, BS 4449 B500B"
+Bill 3 - Superstructure!R287,A4400;A4430,Formwork to vertical sides of columns
+Bill 3 - Superstructure!R288,A4470,Reinforced concrete grade C50 in core walls
+Bill 3 - Superstructure!R289,A4450,Reinforcement to core walls
+Bill 3 - Superstructure!R290,A4460,Formwork to faces of core walls including openings
+Bill 3 - Superstructure!R291,A4500,"Concrete grade C40 in suspended slab, Zone A"
+Bill 3 - Superstructure!R292,A4490,"Bar reinforcement to suspended slab, Zone A"
+Bill 3 - Superstructure!R293,A4480,"Soffit formwork to suspended slab, Zone A"
+Bill 3 - Superstructure!R294,A4530,"Concrete grade C40 in suspended slab, Zone B"
+Bill 3 - Superstructure!R295,A4520,"Bar reinforcement to suspended slab, Zone B"
+Bill 3 - Superstructure!R296,A4510,"Soffit formwork to suspended slab, Zone B"
+Bill 3 - Superstructure!R297,A4540,In-situ staircase flights and landings complete
+Bill 4 - Masonry & Finishes!R5,A4710;A4870;A5030;A5190;A5350;A5510;A5670;A5830;A5990;A6150;A6310;A6470;A6630;A6790;A6950;A7110;A7270,"200mm hollow concrete blockwork to internal partitions, Levels 1 to 17"
+Bill 4 - Masonry & Finishes!R6,A4550,"200mm hollow blockwork walls, ground floor"
+Bill 4 - Masonry & Finishes!R7,A7430;A7470,"Blockwork to basement plant rooms, B1 and B2"
+Bill 4 - Masonry & Finishes!R9,A4610;A4770;A4930;A5090;A5250;A5410;A5570;A5730;A5890;A6050;A6210;A6370;A6530;A6690;A6850;A7010;A7170;A7330,"Internal cement plaster 15mm to blockwork walls, Ground to Level 17"
+Bill 4 - Masonry & Finishes!R11,A4620,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R12,A4650,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R13,A4650,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R14,A4650,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R15,A4630,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R16,A4640,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R17,A4660,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R18,A4660,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R20,A4780,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R21,A4810,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R22,A4810,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R23,A4810,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R24,A4790,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R25,A4800,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R26,A4820,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R27,A4820,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R29,A4940,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R30,A4970,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R31,A4970,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R32,A4970,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R33,A4950,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R34,A4960,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R35,A4980,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R36,A4980,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R38,A5100,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R39,A5130,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R40,A5130,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R41,A5130,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R42,A5110,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R43,A5120,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R44,A5140,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R45,A5140,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R47,A5260,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R48,A5290,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R49,A5290,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R50,A5290,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R51,A5270,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R52,A5280,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R53,A5300,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R54,A5300,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R56,A5420,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R57,A5450,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R58,A5450,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R59,A5450,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R60,A5430,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R61,A5440,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R62,A5460,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R63,A5460,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R65,A5580,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R66,A5610,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R67,A5610,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R68,A5610,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R69,A5590,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R70,A5600,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R71,A5620,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R72,A5620,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R74,A5740,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R75,A5770,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R76,A5770,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R77,A5770,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R78,A5750,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R79,A5760,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R80,A5780,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R81,A5780,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R83,A5900,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R84,A5930,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R85,A5930,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R86,A5930,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R87,A5910,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R88,A5920,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R89,A5940,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R90,A5940,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R92,A6060,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R93,A6090,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R94,A6090,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R95,A6090,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R96,A6070,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R97,A6080,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R98,A6100,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R99,A6100,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R101,A6220,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R102,A6250,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R103,A6250,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R104,A6250,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R105,A6230,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R106,A6240,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R107,A6260,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R108,A6260,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R110,A6380,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R111,A6410,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R112,A6410,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R113,A6410,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R114,A6390,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R115,A6400,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R116,A6420,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R117,A6420,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R119,A6540,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R120,A6570,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R121,A6570,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R122,A6570,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R123,A6550,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R124,A6560,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R125,A6580,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R126,A6580,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R128,A6700,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R129,A6730,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R130,A6730,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R131,A6730,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R132,A6710,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R133,A6720,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R134,A6740,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R135,A6740,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R137,A6860,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R138,A6890,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R139,A6890,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R140,A6890,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R141,A6870,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R142,A6880,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R143,A6900,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R144,A6900,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R146,A7020,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R147,A7050,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R148,A7050,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R149,A7050,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R150,A7030,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R151,A7040,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R152,A7060,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R153,A7060,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R155,A7180,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R156,A7210,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R157,A7210,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R158,A7210,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R159,A7190,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R160,A7200,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R161,A7220,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R162,A7220,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R164,A7340,Sand cement screed 75mm to floors
+Bill 4 - Masonry & Finishes!R165,A7370,Porcelain floor tiles 600x600mm to apartments
+Bill 4 - Masonry & Finishes!R166,A7370,Ceramic wall tiles to bathrooms and kitchens
+Bill 4 - Masonry & Finishes!R167,A7370,Porcelain skirting 100mm high
+Bill 4 - Masonry & Finishes!R168,A7350,Liquid applied waterproofing membrane to wet areas
+Bill 4 - Masonry & Finishes!R169,A7360,Suspended gypsum board false ceiling with access panels
+Bill 4 - Masonry & Finishes!R170,A7380,"Emulsion paint to plastered walls, 3 coats"
+Bill 4 - Masonry & Finishes!R171,A7380,"Emulsion paint to ceilings, 2 coats"
+Bill 4 - Masonry & Finishes!R172,A7490,"Epoxy floor coating to car park, Basement 1"
+Bill 4 - Masonry & Finishes!R173,A7500,"Emulsion paint to basement walls and soffits, Basement 1"
+Bill 4 - Masonry & Finishes!R174,A7450,"Epoxy floor coating to car park, Basement 2"
+Bill 4 - Masonry & Finishes!R175,A7460,"Emulsion paint to basement walls and soffits, Basement 2"
+Bill 4 - Masonry & Finishes!R177,A7690,Roof waterproofing membrane with 50mm XPS insulation
+Bill 4 - Masonry & Finishes!R178,A7700,Roof screed to falls and porcelain roof tiles
+Bill 5 - Doors & Joinery!R5,A4670,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R6,A4670,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R7,A4680,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R8,A4680,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R10,A4830,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R11,A4830,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R12,A4840,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R13,A4840,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R15,A4990,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R16,A4990,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R17,A5000,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R18,A5000,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R20,A5150,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R21,A5150,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R22,A5160,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R23,A5160,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R25,A5310,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R26,A5310,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R27,A5320,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R28,A5320,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R30,A5470,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R31,A5470,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R32,A5480,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R33,A5480,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R35,A5630,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R36,A5630,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R37,A5640,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R38,A5640,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R40,A5790,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R41,A5790,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R42,A5800,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R43,A5800,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R45,A5950,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R46,A5950,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R47,A5960,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R48,A5960,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R50,A6110,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R51,A6110,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R52,A6120,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R53,A6120,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R55,A6270,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R56,A6270,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R57,A6280,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R58,A6280,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R60,A6430,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R61,A6430,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R62,A6440,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R63,A6440,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R65,A6590,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R66,A6590,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R67,A6600,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R68,A6600,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R70,A6750,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R71,A6750,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R72,A6760,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R73,A6760,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R75,A6910,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R76,A6910,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R77,A6920,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R78,A6920,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R80,A7070,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R81,A7070,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R82,A7080,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R83,A7080,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R85,A7230,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R86,A7230,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R87,A7240,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R88,A7240,"Built-in wardrobes, laminated finish"
+Bill 5 - Doors & Joinery!R90,A7390,Type D1 solid core timber flush door 900x2100 with ironmongery
+Bill 5 - Doors & Joinery!R91,A7390,Type FD2 60 minute fire rated door with frame
+Bill 5 - Doors & Joinery!R92,A7400,Kitchen base and wall cabinets with quartz worktop
+Bill 5 - Doors & Joinery!R93,A7400,"Built-in wardrobes, laminated finish"
+Bill 6 - Facade!R4,A7510,"Unitised aluminium curtain wall system, Ground Floor"
+Bill 6 - Facade!R5,A7520,"Unitised aluminium curtain wall system, Level 01"
+Bill 6 - Facade!R6,A7530,"Unitised aluminium curtain wall system, Level 02"
+Bill 6 - Facade!R7,A7540,"Unitised aluminium curtain wall system, Level 03"
+Bill 6 - Facade!R8,A7550,"Unitised aluminium curtain wall system, Level 04"
+Bill 6 - Facade!R9,A7560,"Unitised aluminium curtain wall system, Level 05"
+Bill 6 - Facade!R10,A7570,"Unitised aluminium curtain wall system, Level 06"
+Bill 6 - Facade!R11,A7580,"Unitised aluminium curtain wall system, Level 07"
+Bill 6 - Facade!R12,A7590,"Unitised aluminium curtain wall system, Level 08"
+Bill 6 - Facade!R13,A7600,"Unitised aluminium curtain wall system, Level 09"
+Bill 6 - Facade!R14,A7610,"Unitised aluminium curtain wall system, Level 10"
+Bill 6 - Facade!R15,A7620,"Unitised aluminium curtain wall system, Level 11"
+Bill 6 - Facade!R16,A7630,"Unitised aluminium curtain wall system, Level 12"
+Bill 6 - Facade!R17,A7640,"Unitised aluminium curtain wall system, Level 13"
+Bill 6 - Facade!R18,A7650,"Unitised aluminium curtain wall system, Level 14"
+Bill 6 - Facade!R19,A7660,"Unitised aluminium curtain wall system, Level 15"
+Bill 6 - Facade!R20,A7670,"Unitised aluminium curtain wall system, Level 16"
+Bill 6 - Facade!R21,A7680,"Unitised aluminium curtain wall system, Level 17"
+Bill 6 - Facade!R22,REVIEW,Aluminium louvres to rooftop plant screen
+Bill 7 - MEP Services!R5,A4560,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R6,A4560,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R7,A4690,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R8,A4570,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R9,A4570,PPR water supply piping with insulation
+Bill 7 - MEP Services!R10,A4690,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R11,A4580,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R12,A4580,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R13,A4590,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R14,A4600,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R15,A4600,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R17,A4720,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R18,A4720,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R19,A4850,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R20,A4730,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R21,A4730,PPR water supply piping with insulation
+Bill 7 - MEP Services!R22,A4850,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R23,A4740,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R24,A4740,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R25,A4750,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R26,A4760,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R27,A4760,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R29,A4880,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R30,A4880,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R31,A5010,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R32,A4890,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R33,A4890,PPR water supply piping with insulation
+Bill 7 - MEP Services!R34,A5010,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R35,A4900,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R36,A4900,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R37,A4910,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R38,A4920,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R39,A4920,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R41,A5040,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R42,A5040,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R43,A5170,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R44,A5050,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R45,A5050,PPR water supply piping with insulation
+Bill 7 - MEP Services!R46,A5170,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R47,A5060,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R48,A5060,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R49,A5070,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R50,A5080,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R51,A5080,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R53,A5200,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R54,A5200,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R55,A5330,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R56,A5210,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R57,A5210,PPR water supply piping with insulation
+Bill 7 - MEP Services!R58,A5330,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R59,A5220,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R60,A5220,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R61,A5230,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R62,A5240,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R63,A5240,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R65,A5360,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R66,A5360,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R67,A5490,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R68,A5370,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R69,A5370,PPR water supply piping with insulation
+Bill 7 - MEP Services!R70,A5490,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R71,A5380,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R72,A5380,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R73,A5390,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R74,A5400,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R75,A5400,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R77,A5520,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R78,A5520,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R79,A5650,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R80,A5530,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R81,A5530,PPR water supply piping with insulation
+Bill 7 - MEP Services!R82,A5650,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R83,A5540,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R84,A5540,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R85,A5550,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R86,A5560,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R87,A5560,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R89,A5680,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R90,A5680,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R91,A5810,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R92,A5690,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R93,A5690,PPR water supply piping with insulation
+Bill 7 - MEP Services!R94,A5810,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R95,A5700,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R96,A5700,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R97,A5710,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R98,A5720,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R99,A5720,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R101,A5840,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R102,A5840,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R103,A5970,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R104,A5850,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R105,A5850,PPR water supply piping with insulation
+Bill 7 - MEP Services!R106,A5970,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R107,A5860,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R108,A5860,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R109,A5870,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R110,A5880,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R111,A5880,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R113,A6000,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R114,A6000,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R115,A6130,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R116,A6010,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R117,A6010,PPR water supply piping with insulation
+Bill 7 - MEP Services!R118,A6130,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R119,A6020,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R120,A6020,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R121,A6030,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R122,A6040,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R123,A6040,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R125,A6160,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R126,A6160,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R127,A6290,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R128,A6170,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R129,A6170,PPR water supply piping with insulation
+Bill 7 - MEP Services!R130,A6290,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R131,A6180,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R132,A6180,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R133,A6190,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R134,A6200,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R135,A6200,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R137,A6320,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R138,A6320,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R139,A6450,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R140,A6330,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R141,A6330,PPR water supply piping with insulation
+Bill 7 - MEP Services!R142,A6450,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R143,A6340,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R144,A6340,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R145,A6350,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R146,A6360,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R147,A6360,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R149,A6480,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R150,A6480,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R151,A6610,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R152,A6490,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R153,A6490,PPR water supply piping with insulation
+Bill 7 - MEP Services!R154,A6610,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R155,A6500,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R156,A6500,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R157,A6510,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R158,A6520,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R159,A6520,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R161,A6640,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R162,A6640,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R163,A6770,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R164,A6650,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R165,A6650,PPR water supply piping with insulation
+Bill 7 - MEP Services!R166,A6770,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R167,A6660,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R168,A6660,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R169,A6670,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R170,A6680,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R171,A6680,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R173,A6800,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R174,A6800,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R175,A6930,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R176,A6810,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R177,A6810,PPR water supply piping with insulation
+Bill 7 - MEP Services!R178,A6930,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R179,A6820,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R180,A6820,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R181,A6830,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R182,A6840,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R183,A6840,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R185,A6960,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R186,A6960,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R187,A7090,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R188,A6970,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R189,A6970,PPR water supply piping with insulation
+Bill 7 - MEP Services!R190,A7090,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R191,A6980,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R192,A6980,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R193,A6990,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R194,A7000,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R195,A7000,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R197,A7120,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R198,A7120,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R199,A7250,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R200,A7130,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R201,A7130,PPR water supply piping with insulation
+Bill 7 - MEP Services!R202,A7250,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R203,A7140,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R204,A7140,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R205,A7150,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R206,A7160,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R207,A7160,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R209,A7280,PVC conduits and wiring for lighting and power points
+Bill 7 - MEP Services!R210,A7280,Distribution boards and sub-main cables
+Bill 7 - MEP Services!R211,A7410,LED light fittings type L1 including installation
+Bill 7 - MEP Services!R212,A7290,uPVC drainage pipework and fittings
+Bill 7 - MEP Services!R213,A7290,PPR water supply piping with insulation
+Bill 7 - MEP Services!R214,A7410,"Sanitary ware: WC, wash basin and shower mixer sets"
+Bill 7 - MEP Services!R215,A7300,Galvanised sheet metal ductwork with thermal insulation
+Bill 7 - MEP Services!R216,A7300,"Fan coil units, ceiling concealed, 2-row"
+Bill 7 - MEP Services!R217,A7310,Sprinkler heads and branch piping
+Bill 7 - MEP Services!R218,A7320,Fire alarm smoke detectors and loop cabling
+Bill 7 - MEP Services!R219,A7320,Data and TV outlets with structured cabling
+Bill 7 - MEP Services!R221,A7710,"Air cooled chillers 450TR, 3 nr on roof"
+Bill 7 - MEP Services!R222,A7710,Booster and fire pump sets
+Bill 7 - MEP Services!R223,A7720;A7730;A7740;A7750,"Passenger lifts 21 stops, 1.6 m/s"
+Bill 7 - MEP Services!R224,A7760,Testing and commissioning of all MEP systems
+Bill 7 - MEP Services!R225,A7440;A7480,Basement MEP services including car park ventilation
+Bill 7 - MEP Services!R226,REVIEW,Sundry builder's work in connection with services
+Bill 8 - External Works!R4,A7770,Asphalt paving to access roads and car parking
+Bill 8 - External Works!R5,A7770,Interlocking concrete pavers to walkways
+Bill 8 - External Works!R6,A7780,"Soft landscaping, planting and irrigation"
+Bill 8 - External Works!R7,A7790,Boundary wall 2.4m high with steel gates
+Bill 8 - External Works!R8,REVIEW,Signage and wayfinding
+Bill 9 - Provisional Sums!R4,PRELIM,Provisional sum for utility connections
+Bill 9 - Provisional Sums!R5,PRELIM,Provisional sum for artwork
+Bill 9 - Provisional Sums!R6,PRELIM,Contingency
+Bill 5 - Doors & Joinery!R95,REVIEW,negative
+Bill 6 - Facade!R24,REVIEW,level 18 not in schedule
